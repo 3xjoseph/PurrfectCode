@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 6ecfe4fd8d2e0de4aa7a99e00afb69f1
+guid: 8bb21a88bfa20f840a413602a148c0b3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8791617407156663858
+    second: P2_Back
+  - first:
+      213: 1989484867092917050
+    second: P3_Front
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -63,7 +69,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -90,7 +96,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,7 +108,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cover 2_0
+      name: P2_Back
       rect:
         serializedVersion: 2
-        x: 14
-        y: 38
-        width: 144
-        height: 177
+        x: 0
+        y: 0
+        width: 375
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf2982ca2d5d22479002abf6db3a330
-      internalID: -698307673
+      spriteID: 236b6baa379120a70800000000000000
+      internalID: 8791617407156663858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cover 2_1
+      name: P3_Front
       rect:
         serializedVersion: 2
-        x: 158
-        y: 38
-        width: 143
-        height: 177
+        x: 375
+        y: 0
+        width: 375
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc7fb637f6c26d342b3af230da7da095
-      internalID: -609439801
+      spriteID: a3ba61522f11c9b10800000000000000
+      internalID: 1989484867092917050
       vertices: []
       indices: 
       edges: []
@@ -193,8 +199,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cover 2_0: -698307673
-      cover 2_1: -609439801
+      P2_Back: 8791617407156663858
+      P3_Front: 1989484867092917050
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -4,23 +4,39 @@ using UnityEngine;
 
 public class bookScript : MonoBehaviour
 {
-    
+
     [SerializeField] float pageSpeed = 0.5f;
     [SerializeField] List<Transform> pages;
-    [SerializeField] GameObject backButton;
-    [SerializeField] GameObject forwardButton;
     int index = -1;
     bool rotate = false;
+    [SerializeField] GameObject backButton;
+    [SerializeField] GameObject forwardButton;
 
+    private void Start()
+    {
+        InitialState();
+    }
+
+    public void InitialState()
+    {
+        for (int i = 0; i < pages.Count; i++)
+        {
+            pages[i].transform.rotation = Quaternion.identity;
+        }
+        pages[0].SetAsLastSibling();
+        //backButton.SetActive(false);
+
+    }
 
     public void RotateForward()
     {
         if (rotate == true) { return; }
         index++;
-        float angle = 180;
-        
+        float angle = 180; //in order to rotate the page forward, you need to set the rotation by 180 degrees around the y axis
+        //ForwardButtonActions();
         pages[index].SetAsLastSibling();
         StartCoroutine(Rotate(angle, true));
+
     }
 
     public void ForwardButtonActions()
@@ -37,9 +53,10 @@ public class bookScript : MonoBehaviour
 
     public void RotateBack()
     {
-        if (rotate == true){ return; }
-        float angle = 0;
-        
+        if (rotate == true) { return; }
+        float angle = 0; //in order to rotate the page back, you need to set the rotation to 0 degrees around the y axis
+        pages[index].SetAsLastSibling();
+        //BackButtonActions();
         StartCoroutine(Rotate(angle, false));
     }
 
@@ -63,18 +80,21 @@ public class bookScript : MonoBehaviour
             rotate = true;
             Quaternion targetRotation = Quaternion.Euler(0, angle, 0);
             value += Time.deltaTime * pageSpeed;
-            pages[index].rotation = Quaternion.Slerp(pages[index].rotation, targetRotation, value);
-            float angle1 = Quaternion.Angle(pages[index].rotation, targetRotation);
+            pages[index].rotation = Quaternion.Slerp(pages[index].rotation, targetRotation, value); //smoothly turn the page
+            float angle1 = Quaternion.Angle(pages[index].rotation, targetRotation); //calculate the angle between the given angle of rotation and the current angle of rotation
             if (angle1 < 0.1f)
             {
                 if (forward == false)
                 {
-                    index++;
+                    index--;
                 }
                 rotate = false;
                 break;
+
             }
             yield return null;
+
         }
     }
+
 }
