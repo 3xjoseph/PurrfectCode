@@ -1,5 +1,5 @@
 # PurrfectCode
-A 2D mobile game educational game. Purrfect Code is an 2D educational adventure game where players take on the role of a courageous cat on a mission to collect pages and solve the puzzle of Java. The game combines elements of exploration, puzzle-solving, and combat in a Java programming-themed world.
+A 2D mobile educational game. Purrfect Code is an 2D educational adventure game where players take on the role of a courageous cat on a mission to collect pages and solve the puzzle of Java. The game combines elements of exploration, puzzle-solving, and combat in a Java programming-themed world.
 
 Overview:
 
@@ -33,6 +33,6 @@ Purrfect Code is designed for players who are interested in learning or practici
 It appeals to both beginners who want an introduction to Java concepts and experienced programmers who want to reinforce their knowledge.
 The game caters to players who enjoy adventure, puzzle-solving, and combat-oriented gameplay.
 Suitable for players of various ages, including students, programmers, and Java enthusiasts.
-By embarking on the "Cat's Quest: The Java Journey," players can enjoy an entertaining and educational experience, exploring the world of Java programming while guiding the cat protagonist through a captivating adventure filled with challenges, rewards, and the joy of learning.
+By embarking on the "Purrfect Code," players can enjoy an entertaining and educational experience, exploring the world of Java programming while guiding the cat protagonist through a captivating adventure filled with challenges, rewards, and the joy of learning.
 
 
