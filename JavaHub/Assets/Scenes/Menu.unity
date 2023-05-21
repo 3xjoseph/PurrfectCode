@@ -1275,7 +1275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatSpeed: 4
-  floatHeight: 1
+  floatHeight: 3
 --- !u!1 &1174049889
 GameObject:
   m_ObjectHideFlags: 0
