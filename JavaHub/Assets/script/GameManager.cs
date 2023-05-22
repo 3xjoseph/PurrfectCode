@@ -162,7 +162,6 @@ public class GameManager : MonoBehaviour
     private void CorrectAns()
     {
         Debug.Log("Correct!");
-        GetComponent<Animator>().SetTrigger("CorrectAnswerTrigger");
         answeredCorrectCount++;
 
         // Decrease the enemy's health by 1
