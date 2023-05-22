@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 871b2c37ab13f9745ac73634a55d90a9
+guid: 73cec8520d98baa4894470942a719515
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: indigo_0_0
+      name: buttons_0
       rect:
         serializedVersion: 2
-        x: 193
-        y: 100
-        width: 29
-        height: 23
+        x: 27
+        y: 363
+        width: 230
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70d92fec55c19f440b551dc1749021b5
-      internalID: -1956722551
+      spriteID: 5fc4d7a152ed0d948b18c1024a619fc3
+      internalID: 762043112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indigo_0_1
+      name: buttons_1
       rect:
         serializedVersion: 2
-        x: 225
-        y: 99
-        width: 31
-        height: 25
+        x: 265
+        y: 357
+        width: 105
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11e4fd13bf2ea1441a4c546edb27b29b
-      internalID: -1739806754
+      spriteID: dbb82537ff855e742841da6ac4766081
+      internalID: 1888046960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indigo_0_2
+      name: buttons_2
       rect:
         serializedVersion: 2
-        x: 258
-        y: 99
-        width: 28
-        height: 25
+        x: 375
+        y: 355
+        width: 101
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3d7d396b442074fb0035dc3fdada8b
-      internalID: 550090302
+      spriteID: 5714be2cf863c1743aa904d6e88b5afc
+      internalID: -621801841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indigo_0_3
+      name: buttons_3
       rect:
         serializedVersion: 2
-        x: 289
-        y: 99
-        width: 29
-        height: 25
+        x: 23
+        y: 259
+        width: 232
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cefd0b85475f640a6cd726812ad9ff
-      internalID: -1608156961
+      spriteID: 506d13974d265d849a981d35bf76dd14
+      internalID: 1661716259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indigo_0_4
+      name: buttons_4
       rect:
         serializedVersion: 2
-        x: 320
-        y: 99
-        width: 29
-        height: 26
+        x: 263
+        y: 262
+        width: 101
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 214367743210ef045809475dfc284add
-      internalID: 234736080
+      spriteID: f5a6eb8f1a445dd409154005436c6dde
+      internalID: -1259473626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indigo_0_5
+      name: buttons_5
       rect:
         serializedVersion: 2
-        x: 351
-        y: 99
-        width: 32
-        height: 25
+        x: 368
+        y: 265
+        width: 105
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,8 +260,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602cf85119ff86d4598f2f73a93e6c7f
-      internalID: -1240013292
+      spriteID: 8a422171bf4ec644eb4c85b33ff18b4a
+      internalID: -730495834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 159
+        width: 235
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da04ee1dd08894a993b442db1ba464
+      internalID: -1080497380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 161
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40b0757851ae2c4e9ea4a0e1fc325ef
+      internalID: 80840749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_8
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 160
+        width: 99
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887c9039e7a1fe45a5a7ff9aee836cf
+      internalID: 1405921059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 44
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd64dab3293c5cd488ce627881690de5
+      internalID: 1953824590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 44
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d91f78029926469f0acdd4a4ba403
+      internalID: 1994271461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 45
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d217dcaefa17f43840de9205362633
+      internalID: -9346504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 42
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d8cb4b0ea87304f926fd3597b3191c
+      internalID: 980818409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 45
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180dfa0bf0acf8f4f8ee5f8de52141e7
+      internalID: -680387505
       vertices: []
       indices: 
       edges: []
@@ -277,14 +445,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      indigo_0_1: -1739806754
-      rar: 1231747352
-      ca up and down: -563517978
-      indigo_0_4: 234736080
-      indigo_0_3: -1608156961
-      indigo_0_0: -1956722551
-      indigo_0_2: 550090302
-      indigo_0_5: -1240013292
+      buttons_8: 1405921059
+      buttons_10: 1994271461
+      buttons_2: -621801841
+      buttons_0: 762043112
+      buttons_4: -1259473626
+      buttons_6: -1080497380
+      buttons_1: 1888046960
+      buttons_11: -9346504
+      buttons_12: 980818409
+      buttons_13: -680387505
+      buttons_7: 80840749
+      buttons_5: -730495834
+      buttons_9: 1953824590
+      buttons_3: 1661716259
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
