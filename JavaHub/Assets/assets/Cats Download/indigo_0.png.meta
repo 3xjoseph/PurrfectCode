@@ -144,10 +144,10 @@ TextureImporter:
       name: indigo_0_0
       rect:
         serializedVersion: 2
-        x: 640
-        y: 101
+        x: 193
+        y: 100
         width: 29
-        height: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84234c5e470c62141b9cb6d97adeae6d
-      internalID: -1739806754
+      spriteID: 70d92fec55c19f440b551dc1749021b5
+      internalID: -1956722551
       vertices: []
       indices: 
       edges: []
@@ -165,10 +165,10 @@ TextureImporter:
       name: indigo_0_1
       rect:
         serializedVersion: 2
-        x: 673
+        x: 225
         y: 99
-        width: 28
-        height: 31
+        width: 31
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f0af17445097324ba53fcc4040057f3
-      internalID: -1608156961
+      spriteID: 11e4fd13bf2ea1441a4c546edb27b29b
+      internalID: -1739806754
       vertices: []
       indices: 
       edges: []
@@ -186,10 +186,10 @@ TextureImporter:
       name: indigo_0_2
       rect:
         serializedVersion: 2
-        x: 704
-        y: 95
-        width: 30
-        height: 37
+        x: 258
+        y: 99
+        width: 28
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c529584b1cacc64fb34201e0602f450
-      internalID: -875115339
+      spriteID: ed3d7d396b442074fb0035dc3fdada8b
+      internalID: 550090302
       vertices: []
       indices: 
       edges: []
@@ -207,10 +207,10 @@ TextureImporter:
       name: indigo_0_3
       rect:
         serializedVersion: 2
-        x: 738
-        y: 95
-        width: 27
-        height: 38
+        x: 289
+        y: 99
+        width: 29
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,8 +218,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b38b61b7ec4ea42b31dd7b8252aaa9
-      internalID: 550090302
+      spriteID: 28cefd0b85475f640a6cd726812ad9ff
+      internalID: -1608156961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indigo_0_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 99
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214367743210ef045809475dfc284add
+      internalID: 234736080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indigo_0_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 99
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602cf85119ff86d4598f2f73a93e6c7f
+      internalID: -1240013292
       vertices: []
       indices: 
       edges: []
@@ -235,10 +277,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      indigo_0_1: -1608156961
-      indigo_0_3: 550090302
-      indigo_0_0: -1739806754
-      indigo_0_2: -875115339
+      indigo_0_1: -1739806754
+      rar: 1231747352
+      ca up and down: -563517978
+      indigo_0_4: 234736080
+      indigo_0_3: -1608156961
+      indigo_0_0: -1956722551
+      indigo_0_2: 550090302
+      indigo_0_5: -1240013292
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
