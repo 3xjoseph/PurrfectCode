@@ -5,40 +5,46 @@ using UnityEngine;
 public class chapterSelectionButton : MonoBehaviour
 {
 
-    public GameObject stage1Button;
-    public GameObject stage2Button;
-    public GameObject stage3Button;
+    [SerializeField] GameObject buttonPage3;
+    [SerializeField] GameObject buttonPage5;
+    [SerializeField] GameObject buttonPage7;
 
-    // Start is called before the first frame update
-    void Start()
+    private int currentPage = 1;
+
+    // Function to flip to the next page
+    public void NextPage()
     {
-        stage1Button.SetActive(false);
-        stage2Button.SetActive(false);
-        stage3Button.SetActive(false);
+        currentPage++;
+        // Code to flip to the next page in your book
     }
 
-    public void FlipToPage(int pageNumber)
+    // Function to flip to the previous page
+    public void PreviousPage()
     {
-        // Logic to flip to the specified page goes here
+        currentPage--;
+        // Code to flip to the previous page in your book
+    }
 
-        // Check the page number and activate the corresponding button
-        if (pageNumber == 4)
-        {
-            stage1Button.SetActive(true);
-            stage2Button.SetActive(false);
-            stage3Button.SetActive(false);
-        }
-        else if (pageNumber == 6)
-        {
-            stage1Button.SetActive(false);
-            stage2Button.SetActive(true);
-            stage3Button.SetActive(false);
-        }
-        else if (pageNumber == 8)
-        {
-            stage1Button.SetActive(false);
-            stage2Button.SetActive(false);
-            stage3Button.SetActive(true);
-        }
+    // Function to get the current page number
+    private int GetCurrentPage()
+    {
+        return currentPage;
+        // Replace this with your own logic to determine the current page number
+    }
+
+    // Update the visibility of the buttons based on the current page
+    private void UpdateButtonVisibility()
+    {
+        int currentPage = GetCurrentPage();
+
+        buttonPage3.SetActive(currentPage == 3);
+        buttonPage5.SetActive(currentPage == 4);
+        buttonPage7.SetActive(currentPage == 5);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        UpdateButtonVisibility();
     }
 }
