@@ -13,8 +13,7 @@ public class checkAnswer : MonoBehaviour
     public GameObject enemyHeart;
     public GameObject catHeart;
     public GameObject popUpDialog;
-    public Text question, textA,textB,textC,textD;
-
+    public Text question, textA,textB,textC,textD, prompt;
     public GameObject snakeObj;
     public GameObject catObj;
     
@@ -80,7 +79,7 @@ public class checkAnswer : MonoBehaviour
             catScript cat = catObj.GetComponent<catScript>();
             cat.Move();
             //while the question is answered correctly it will go to the next index of the array of questions
-            RemoveHeart(enemyHeart); //reduce the heart of enemy
+            RemoveHeart(enemyHeart,false); //reduce the heart of enemy
 
             //change the questions
             StartCoroutine(waitToProceed());
@@ -92,7 +91,7 @@ public class checkAnswer : MonoBehaviour
         {
             snakeScript snake = snakeObj.GetComponent<snakeScript>();
             snake.Move();
-            RemoveHeart(catHeart); //reduce the heart of cat
+            RemoveHeart(catHeart,true); //reduce the heart of cat
         }
             
     }
@@ -119,15 +118,26 @@ public class checkAnswer : MonoBehaviour
 
 
     //remove a heart from the user/enemy 
-    public void RemoveHeart(GameObject heart)
+    public void RemoveHeart(GameObject heart, bool isCat)
     {
         if (heart.transform.childCount > 0)
         {
             Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             Destroy(lastHeart.gameObject);
         }
+        //no more lives
         else
+        {
+            String promptMessage;
+            if (isCat)
+                promptMessage = "Sorry you died in the battle";
+            else
+                promptMessage = "You have finish level 1";
+
             popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
+            prompt.text = promptMessage;
+        }
+           
     }
 
     IEnumerator waitToProceed()
