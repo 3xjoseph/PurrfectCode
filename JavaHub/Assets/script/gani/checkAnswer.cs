@@ -60,10 +60,6 @@ public class checkAnswer : MonoBehaviour
         "d)	int and double are the same data type", "d)	= (equals sign)", "d) void", "d) String.parseInt()"
     };
 
-    private void Start()
-    {
-       
-    }
     public void click()
     {
         string buttonName = EventSystem.current.currentSelectedGameObject.name; //get the name of the button has been clicked
@@ -74,7 +70,7 @@ public class checkAnswer : MonoBehaviour
     private void Answer(String buttonName)
     {
         //correct answer
-        if (buttonName == answer[index])
+        if (buttonName == answer[index+1])
         {
             catScript cat = catObj.GetComponent<catScript>();
             cat.Move();
@@ -120,7 +116,7 @@ public class checkAnswer : MonoBehaviour
     //remove a heart from the user/enemy 
     public void RemoveHeart(GameObject heart, bool isCat)
     {
-        if (heart.transform.childCount > 0)
+        if (heart.transform.childCount > 1)
         {
             Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             Destroy(lastHeart.gameObject);
