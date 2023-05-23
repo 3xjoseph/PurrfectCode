@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class stage2 : MonoBehaviour
+public class completedScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject loading;
-    public void playGame()
+    public GameObject loading, statObjs;
+    public void proceed()
     {
         gameObject.SetActive(true);
         loading.SetActive(true);
+        statObjs.SetActive(false);
         StartCoroutine(nextScene());
     }
 
@@ -19,6 +19,6 @@ public class stage2 : MonoBehaviour
         yield return new WaitForSeconds(3f);
         loading.SetActive(false);
         gameObject.SetActive(false);
-        SceneManager.LoadScene(3); //load the scene of learning 1
+        SceneManager.LoadScene(5); //load the scene of learning 1
     }
 }
