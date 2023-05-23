@@ -13,7 +13,7 @@ public class checkAnswer : MonoBehaviour
     public GameObject enemyHeart;
     public GameObject catHeart;
     public GameObject popUpDialog;
-    public Text question, textA,textB,textC,textD, prompt;
+    public Text question, textA,textB,textC,textD;
     public GameObject snakeObj;
     public GameObject catObj;
     
@@ -116,29 +116,23 @@ public class checkAnswer : MonoBehaviour
     //remove a heart from the user/enemy 
     public void RemoveHeart(GameObject heart, bool isCat)
     {
-        if (heart.transform.childCount > 1)
+        if (heart.transform.childCount >= 1)
         {
             Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             Destroy(lastHeart.gameObject);
         }
         //no more lives
         else
-        {
-            String promptMessage;
             if (isCat)
-                promptMessage = "Sorry you died in the battle";
-            else
-                promptMessage = "You have finish level 1";
-
-            popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
-            prompt.text = promptMessage;
-        }
+                popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
+           // else
+                //promptMessage = "You have finish level 1";
            
     }
 
     IEnumerator waitToProceed()
     {
         yield return new WaitForSeconds(2f);
-        proceed(questionnaire[index]);
+        proceed(questionnaire[index+1]);
     }
 }

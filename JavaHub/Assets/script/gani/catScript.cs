@@ -30,7 +30,7 @@ public class catScript : MonoBehaviour
             moving = speed * Time.deltaTime;
             transform.Translate(new Vector3(moving, 0f, 0f));
 
-            if (transform.position.x <= 113.5)
+            if (transform.position.x <= 94.4)
             {
                 isMoving = true;
                 animator.SetBool("walking", true);
