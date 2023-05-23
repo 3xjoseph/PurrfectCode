@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stage3Button3 : MonoBehaviour
+public class Stage1button : MonoBehaviour
 {
     public void playGame()
     {

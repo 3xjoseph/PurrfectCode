@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     public void GoBack()
     {
         // Load the previous scene (assuming it's the scene with build index 0)
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(7);
     }
 
     public void RestartScene()
