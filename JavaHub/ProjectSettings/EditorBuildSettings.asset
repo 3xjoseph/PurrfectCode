@@ -12,12 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter Selection 2.unity
     guid: 2c2f29df7d1a483469f53b46d3c314b5
   - enabled: 1
+    path: Assets/Scenes/Open World/1-Open World.unity
+    guid: 493bd099f59dd984faba6b4b37d1ff64
+  - enabled: 1
+    path: Assets/Scenes/Open World/2-Open World.unity
+    guid: de01b7a908f1cd9478fe71fa7a055dff
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 3.unity
     guid: f941ded88db18a9499d0137ad9b07ff0
   - enabled: 1
-    path: Assets/Scenes/Levels/Level 1.unity
-    guid: 384642cb157902044aea34bbc74bafcb
-  - enabled: 1
     path: Assets/Scenes/Learning Assessment/Learning 1.unity
     guid: f150a7b023318fd48bdeba18a2bd3298
+  - enabled: 1
+    path: Assets/Scenes/Learning Assessment/Learning 2.unity
+    guid: 14c00ca6ad6830341a3c5919645b8d1e
+  - enabled: 1
+    path: Assets/Scenes/Learning Assessment/Learning 3.unity
+    guid: 89914cbc71523c24096bbc6938486595
   m_configObjects: {}
