@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 9354186}
   - component: {fileID: 9354185}
   - component: {fileID: 9354184}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,12 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a297a439524e84690695540ff81448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eHeart: {fileID: 1317822913}
-  cHeart: {fileID: 2075100167}
-  qstn: {fileID: 839356479}
-  player: {fileID: 2038104650}
-  sObj: {fileID: 1218084847}
-  cObj: {fileID: 2006382096}
 --- !u!114 &9354185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,15 +228,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1218084851}
-  - {fileID: 2006382100}
   - {fileID: 1086686179}
   - {fileID: 1178436227}
   - {fileID: 498905171}
   - {fileID: 839356478}
   - {fileID: 2038104651}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -260,7 +252,7 @@ GameObject:
   - component: {fileID: 264070603}
   - component: {fileID: 264070605}
   - component: {fileID: 264070604}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: sh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 498905171}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +347,7 @@ RectTransform:
   m_Children:
   - {fileID: 1317822914}
   m_Father: {fileID: 9354188}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -373,7 +365,7 @@ GameObject:
   - component: {fileID: 669615581}
   - component: {fileID: 669615583}
   - component: {fileID: 669615582}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ch2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +441,7 @@ GameObject:
   - component: {fileID: 721149680}
   - component: {fileID: 721149682}
   - component: {fileID: 721149681}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ch3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +517,7 @@ GameObject:
   - component: {fileID: 831779015}
   - component: {fileID: 831779016}
   - component: {fileID: 831779017}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +597,7 @@ GameObject:
   - component: {fileID: 839356478}
   - component: {fileID: 839356480}
   - component: {fileID: 839356479}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Question
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +617,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9354188}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -687,7 +679,7 @@ GameObject:
   - component: {fileID: 1012279598}
   - component: {fileID: 1012279600}
   - component: {fileID: 1012279599}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: sh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +755,7 @@ GameObject:
   - component: {fileID: 1048181811}
   - component: {fileID: 1048181813}
   - component: {fileID: 1048181812}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: sh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +832,7 @@ GameObject:
   - component: {fileID: 1086686182}
   - component: {fileID: 1086686181}
   - component: {fileID: 1086686180}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -861,7 +853,7 @@ RectTransform:
   m_Children:
   - {fileID: 2007922990}
   m_Father: {fileID: 9354188}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -972,7 +964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1178436227}
   - component: {fileID: 1178436228}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -993,7 +985,7 @@ RectTransform:
   m_Children:
   - {fileID: 2075100168}
   m_Father: {fileID: 9354188}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1105,7 +1097,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1218084850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1146,7 +1137,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -869364435, guid: 04d99354bf068814992140b916d0afb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -1166,12 +1157,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218084847}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 388, y: -683, z: 0}
-  m_LocalScale: {x: 873.2944, y: 826.1345, z: 1.8749999}
+  m_LocalPosition: {x: 1779.0833, y: 193.52087, z: 0}
+  m_LocalScale: {x: 673.16437, y: 636.812, z: 1.4453124}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9354188}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317822913
 GameObject:
@@ -1184,7 +1175,7 @@ GameObject:
   - component: {fileID: 1317822914}
   - component: {fileID: 1317822916}
   - component: {fileID: 1317822915}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SHC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1254,7 @@ GameObject:
   - component: {fileID: 1451259264}
   - component: {fileID: 1451259266}
   - component: {fileID: 1451259265}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1345,7 +1336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1918220824
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1363,8 +1354,8 @@ Camera:
   m_GameObject: {fileID: 1918220823}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1379,8 +1370,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 178.2
+  orthographic: 0
   orthographic size: 208.39838
   m_Depth: -1
   m_CullingMask:
@@ -1410,7 +1401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960574363
 GameObject:
@@ -1423,7 +1414,7 @@ GameObject:
   - component: {fileID: 1960574366}
   - component: {fileID: 1960574365}
   - component: {fileID: 1960574364}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1558,7 +1549,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2006382096
 GameObject:
@@ -1614,7 +1605,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &2006382099
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1655,7 +1645,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b8eaf1512f8ca324e85fd86b43a2678c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1675,12 +1665,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006382096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -260.74994, y: -647.37506, z: 0}
-  m_LocalScale: {x: 2394.0896, y: 1728.5935, z: 1.8749999}
+  m_LocalPosition: {x: 1279.0052, y: 220.98175, z: 0}
+  m_LocalScale: {x: 1845.444, y: 1332.4575, z: 1.4453124}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9354188}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2007922989
 GameObject:
@@ -1693,7 +1683,7 @@ GameObject:
   - component: {fileID: 2007922990}
   - component: {fileID: 2007922992}
   - component: {fileID: 2007922991}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1829,7 +1819,7 @@ GameObject:
   - component: {fileID: 2038104653}
   - component: {fileID: 2038104652}
   - component: {fileID: 2038104650}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: InputField (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1919,7 +1909,7 @@ RectTransform:
   - {fileID: 1960574366}
   - {fileID: 831779015}
   m_Father: {fileID: 9354188}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1975,7 +1965,7 @@ GameObject:
   - component: {fileID: 2075100168}
   - component: {fileID: 2075100170}
   - component: {fileID: 2075100169}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CHC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
