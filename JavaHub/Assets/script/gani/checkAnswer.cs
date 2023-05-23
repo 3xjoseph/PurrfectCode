@@ -13,7 +13,7 @@ public class checkAnswer : MonoBehaviour
     public GameObject enemyHeart;
     public GameObject catHeart;
     public GameObject popUpDialog;
-    public Text question, textA,textB,textC,textD, prompt;
+    public Text question, textA,textB,textC,textD;
     public GameObject snakeObj;
     public GameObject catObj;
     
@@ -123,16 +123,10 @@ public class checkAnswer : MonoBehaviour
         }
         //no more lives
         else
-        {
-            String promptMessage;
             if (isCat)
-                promptMessage = "Sorry you died in the battle";
-            else
-                promptMessage = "You have finish level 1";
-
-            popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
-            prompt.text = promptMessage;
-        }
+                popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
+           // else
+                //promptMessage = "You have finish level 1";
            
     }
 
