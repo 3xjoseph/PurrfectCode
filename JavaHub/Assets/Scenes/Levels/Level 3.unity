@@ -538,8 +538,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 458703131}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 2139300013}
+        m_TargetAssemblyTypeName: goBack3222, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -1206,8 +1206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 458703131}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 2139300012}
+        m_TargetAssemblyTypeName: goBack3, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -1249,7 +1249,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7943,6 +7943,7 @@ GameObject:
   - component: {fileID: 2139300010}
   - component: {fileID: 2139300011}
   - component: {fileID: 2139300012}
+  - component: {fileID: 2139300013}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -8086,6 +8087,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c26bc5f59260999488c83671f4609a01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loading: {fileID: 678650901}
+--- !u!114 &2139300013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139300003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d57f3fff893e4499edc46326c64074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loading: {fileID: 678650901}

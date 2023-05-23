@@ -242,7 +242,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -86736,8 +86736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28091.799, y: 12970.984}
-  m_SizeDelta: {x: 57769.117, y: 28419.045}
+  m_AnchoredPosition: {x: 27936.496, y: 12919.217}
+  m_SizeDelta: {x: 60978.82, y: 31628.744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998123513
 MonoBehaviour:
@@ -87834,8 +87834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -520, y: 348}
-  m_SizeDelta: {x: 470, y: 130}
+  m_AnchoredPosition: {x: -507, y: 348}
+  m_SizeDelta: {x: 496, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477154951
 MonoBehaviour:
