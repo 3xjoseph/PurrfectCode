@@ -1889,8 +1889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28091.799, y: 12970.984}
-  m_SizeDelta: {x: 57769.117, y: 28419.045}
+  m_AnchoredPosition: {x: 27993.08, y: 12970.984}
+  m_SizeDelta: {x: 57966.555, y: 28419.045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633837668
 MonoBehaviour:
@@ -1944,6 +1944,7 @@ GameObject:
   - component: {fileID: 1734953385}
   - component: {fileID: 1734953389}
   - component: {fileID: 1734953390}
+  - component: {fileID: 1734953391}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2063,6 +2064,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d2bce3d057182d40a8da169d70bfb76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loading: {fileID: 1393269123}
+--- !u!114 &1734953391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734953384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efee4e68d5a24ff4a89acd1689c34ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loading: {fileID: 1393269123}
@@ -2218,8 +2232,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1734953389}
-        m_TargetAssemblyTypeName: sceneTransition1, Assembly-CSharp
+      - m_Target: {fileID: 1734953391}
+        m_TargetAssemblyTypeName: level1goback, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
