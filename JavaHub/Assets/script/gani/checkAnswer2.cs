@@ -80,6 +80,7 @@ public class checkAnswer2 : MonoBehaviour
         //no more lives
         else
         {
+            Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             String promptMessage;
             if (isCat)
                 promptMessage = "Sorry you died in the battle";
