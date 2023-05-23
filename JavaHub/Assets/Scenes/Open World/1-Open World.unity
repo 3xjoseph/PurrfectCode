@@ -25136,6 +25136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loading: {fileID: 1800322748}
+  statObjs: {fileID: 1713070571}
 --- !u!1 &1167240794
 GameObject:
   m_ObjectHideFlags: 0

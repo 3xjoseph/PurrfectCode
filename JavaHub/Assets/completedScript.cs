@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class completedScript : MonoBehaviour
 {
-    public GameObject loading;
+    public GameObject loading, statObjs;
     public void proceed()
     {
         gameObject.SetActive(true);
         loading.SetActive(true);
+        statObjs.SetActive(false);
         StartCoroutine(nextScene());
     }
 
