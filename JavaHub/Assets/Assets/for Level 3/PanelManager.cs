@@ -24,6 +24,18 @@ public class PanelManager : MonoBehaviour
     {
         // Add code here to quit the game
         // Load the previous scene (assuming it's the scene with build index 0)
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
+    }
+    public void QuitGame2()
+    {
+        // Add code here to quit the game
+        // Load the previous scene (assuming it's the scene with build index 0)
+        SceneManager.LoadScene(6);
+    }
+    public void QuitGame3()
+    {
+        // Add code here to quit the game
+        // Load the previous scene (assuming it's the scene with build index 0)
+        SceneManager.LoadScene(7);
     }
 }
