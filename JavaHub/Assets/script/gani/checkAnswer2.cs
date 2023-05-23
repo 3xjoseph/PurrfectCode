@@ -98,4 +98,9 @@ public class checkAnswer2 : MonoBehaviour
         yield return new WaitForSeconds(2f);
         prcd(questions[ind]);
     }
+
+    public void pauseButton()
+    {
+
+    }
 }

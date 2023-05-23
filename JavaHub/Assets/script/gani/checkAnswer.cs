@@ -188,4 +188,10 @@ public class checkAnswer : MonoBehaviour
         yield return new WaitForSeconds(5f);
         popUp.SetActive(true);
     }
+
+
+    public void popUps()
+    {
+
+    }
 }
