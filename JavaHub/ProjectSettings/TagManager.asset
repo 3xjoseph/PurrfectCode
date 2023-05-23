@@ -3,13 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Page
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BG
+  - 
   - Water
   - UI
   - 
@@ -39,12 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: BG
-    uniqueID: 2155459523
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: cat
-    uniqueID: 2985350147
     locked: 0
