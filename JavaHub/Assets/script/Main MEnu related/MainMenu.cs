@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
         gameObject.SetActive(true);
         loading.SetActive(true);
         StartCoroutine(nextScene());
+        logo.SetActive(false);
+        cat.SetActive(false);
     }
 
     public void quitGame()
