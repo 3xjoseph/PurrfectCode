@@ -116,7 +116,7 @@ public class checkAnswer : MonoBehaviour
     //remove a heart from the user/enemy 
     public void RemoveHeart(GameObject heart, bool isCat)
     {
-        if (heart.transform.childCount > 1)
+        if (heart.transform.childCount >= 1)
         {
             Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             Destroy(lastHeart.gameObject);
@@ -139,6 +139,6 @@ public class checkAnswer : MonoBehaviour
     IEnumerator waitToProceed()
     {
         yield return new WaitForSeconds(2f);
-        proceed(questionnaire[index]);
+        proceed(questionnaire[index+1]);
     }
 }
