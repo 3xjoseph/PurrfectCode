@@ -10,8 +10,6 @@ public class MainMenu : MonoBehaviour
     public void playGame()
     {
         gameObject.SetActive(true);
-        logo.SetActive(false);
-        cat.SetActive(false);
         loading.SetActive(true);
         StartCoroutine(nextScene());
     }

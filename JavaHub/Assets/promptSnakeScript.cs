@@ -20,6 +20,6 @@ public class promptSnakeScript : MonoBehaviour
         loading.SetActive(false);
         gameObject.SetActive(false);
         int chapterSelectionIndex = 1;
-        SceneManager.LoadScene(chapterSelectionIndex); //load the chapter Selection index
+        SceneManager.LoadScene(5); //load the chapter Selection index
     }
 }
