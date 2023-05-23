@@ -5,8 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Stage3Button3 : MonoBehaviour
 {
+    public GameObject loading;
     public void playGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        gameObject.SetActive(true);
+        loading.SetActive(true);
+        StartCoroutine(nextScene());
+    }
+
+    IEnumerator nextScene()
+    {
+        yield return new WaitForSeconds(5f);
+        loading.SetActive(false);
+        gameObject.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); //load the scene of learning 1
     }
 }
