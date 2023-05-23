@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: neo_zero_tiles_and_buildings_01_151
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1530894323, guid: 338d85b3bd1ae6b4d9cc494453c19681, type: 3}
+  m_Sprite: {fileID: -714700184, guid: 338d85b3bd1ae6b4d9cc494453c19681, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
