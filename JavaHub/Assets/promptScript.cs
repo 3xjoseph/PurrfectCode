@@ -15,7 +15,7 @@ public class promptScript : MonoBehaviour
 
     public void onBackMenu()
     {
-        int learning1_index = 4;
-        SceneManager.LoadScene(learning1_index);
+        int learning1_index = 5;
+        SceneManager.LoadScene(learning1_index); //load the scene of learning 1
     }
 }

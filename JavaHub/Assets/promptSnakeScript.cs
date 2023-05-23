@@ -10,6 +10,6 @@ public class promptSnakeScript : MonoBehaviour
     public void onProceed()
     {
         int chapterSelectionIndex = 1;
-        SceneManager.LoadScene(chapterSelectionIndex);
+        SceneManager.LoadScene(chapterSelectionIndex); //load the chapter Selection index
     }
 }

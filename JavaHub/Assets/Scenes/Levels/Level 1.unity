@@ -2874,7 +2874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_Color: {r: 0.18823531, g: 0.21960786, b: 0.2627451, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3344,8 +3344,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -125}
-  m_SizeDelta: {x: 1083.1, y: 69.254}
+  m_AnchoredPosition: {x: -8, y: -179.03}
+  m_SizeDelta: {x: 1083.1, y: 177.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299140765
 MonoBehaviour:
@@ -3369,7 +3369,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 58
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 0
@@ -3380,7 +3380,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sorry you died during the battle!
+  m_Text: You lost, try again!
 --- !u!222 &1299140766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3580,8 +3580,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -154.97}
-  m_SizeDelta: {x: 1083.1, y: 129.194}
+  m_AnchoredPosition: {x: 2.3635, y: -88}
+  m_SizeDelta: {x: 1103.8, y: 214.883}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512370430
 MonoBehaviour:
@@ -3610,15 +3610,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 68
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'You''ve won this chapter!!
-
-    Congratulation'
+  m_Text: Congratulation
 --- !u!222 &1512370431
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4256,8 +4254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 5.51}
+  m_SizeDelta: {x: 0, y: -11.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1907749851
 MonoBehaviour:
