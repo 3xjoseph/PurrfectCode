@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator nextScene()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
         loading.SetActive(false);
         gameObject.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //load the scene of learning 1
