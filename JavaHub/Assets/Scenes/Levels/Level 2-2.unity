@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2139300012}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: goBack3, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
@@ -2641,7 +2641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1454000388, guid: 76ed521ad505edf45b4ebdd7d51f2bbe, type: 3}
+  m_Sprite: {fileID: 1379013840, guid: 76ed521ad505edf45b4ebdd7d51f2bbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6818,7 +6818,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2139300012}
-        m_TargetAssemblyTypeName: goBack3, Assembly-CSharp
+        m_TargetAssemblyTypeName: goBack2, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -8082,7 +8082,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2139300003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c26bc5f59260999488c83671f4609a01, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f9a290351654564ea7c11395d581f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loading: {fileID: 678650901}
