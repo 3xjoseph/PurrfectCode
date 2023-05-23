@@ -6226,7 +6226,6 @@ TextureImporter:
       white_grey_0_2: -1783905078
       white_grey_0_26: 1724707906
       white_grey_0_228: 1009258360
-      white_grey_0_27: -1880388960
       white_grey_0_194: -970993657
       white_grey_0_111: 911540191
       white_grey_0_110: -1029604867
@@ -6234,6 +6233,7 @@ TextureImporter:
       white_grey_0_223: 1274565725
       white_grey_0_177: 1206820454
       white_grey_0_157: -2095976641
+      white_grey_0_91: 2020591287
       white_grey_0_263: 2086918768
       white_grey_0_209: 1565053540
       white_grey_0_234: -521209900
@@ -6505,10 +6505,10 @@ TextureImporter:
       white_grey_0_120: -567335670
       white_grey_0_176: -127678856
       white_grey_0_47: 671688980
-      white_grey_0_91: 2020591287
+      white_grey_0_27: -1880388960
       white_grey_0_273: -2142107335
-      white_grey_0_94: 951551413
       white_grey_0_256: -1584976522
+      white_grey_0_94: 951551413
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
