@@ -6636,6 +6636,7 @@ GameObject:
   - component: {fileID: 2139300010}
   - component: {fileID: 2139300011}
   - component: {fileID: 2139300012}
+  - component: {fileID: 2139300013}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -6781,18 +6782,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478d0a7438c6db14986af961d3905b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DukeHeart: {fileID: 440298991}
-  MidnightHeart: {fileID: 1954146644}
-  Win: {fileID: 696832075}
-  Lose: {fileID: 1962118270}
-  Pause: {fileID: 1026479003}
+  eHeart: {fileID: 0}
+  cHeart: {fileID: 0}
   qstn: {fileID: 1211046060}
-  input: {fileID: 1888859757}
-  Midnight: {fileID: 1163298879}
-  Duke: {fileID: 1383878073}
-  questionImages:
-  - {fileID: 2800000, guid: c28d8718635a008459535427c376d53a, type: 3}
-  - {fileID: 2800000, guid: ba10327765557a343bde5d50d439391a, type: 3}
-  - {fileID: 2800000, guid: a3572ec03a401a9428078f22c6698e95, type: 3}
-  - {fileID: 2800000, guid: 59f8ff797fc5ba246849fe563b8d6af5, type: 3}
-  imageComponent: {fileID: 499340729}
+  player: {fileID: 0}
+  sObj: {fileID: 0}
+  cObj: {fileID: 0}
+--- !u!114 &2139300013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139300003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9a290351654564ea7c11395d581f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loading: {fileID: 0}

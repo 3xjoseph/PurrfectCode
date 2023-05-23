@@ -20,4 +20,10 @@ public class goBack2 : MonoBehaviour
         gameObject.SetActive(false);
         SceneManager.LoadScene(6); //load the scene of learning 1
     }
+
+    public void RestartScene()
+    {
+        // Reload the current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
