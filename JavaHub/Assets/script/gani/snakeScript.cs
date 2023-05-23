@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,7 +25,7 @@ public class snakeScript : MonoBehaviour
             moving = speed * Time.deltaTime;
             transform.Translate(new Vector3(-moving, 0f, 0f));
 
-            if (transform.position.x >= 46.3)
+            if (transform.position.x >= 51.5)
             {
                 isMoving = true;
                 animator.SetBool("walk", true);
@@ -66,6 +66,11 @@ public class snakeScript : MonoBehaviour
         animator.SetBool("attack", false);
         transform.position = originalPosition;
         
+    }
+
+    public void Death()
+    {
+        animator.SetBool("died", true);
     }
 
   
