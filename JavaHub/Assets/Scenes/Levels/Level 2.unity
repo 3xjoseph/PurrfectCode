@@ -3304,7 +3304,6 @@ GameObject:
   - component: {fileID: 1163298882}
   - component: {fileID: 1163298881}
   - component: {fileID: 1163298883}
-  - component: {fileID: 1163298884}
   m_Layer: 5
   m_Name: Midnight
   m_TagString: Untagged
@@ -3390,21 +3389,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &1163298884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163298879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aaecc95d6e84b43a6b63b128fccfa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dstnc: 5
-  speed: 0
-  dukeObj: {fileID: 1383878073}
 --- !u!1 &1188305903
 GameObject:
   m_ObjectHideFlags: 0
@@ -4149,7 +4133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342219844}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -4175,7 +4159,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your Answer Here...
+  m_Text: 
 --- !u!222 &1342219847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4280,7 +4264,6 @@ GameObject:
   - component: {fileID: 1383878077}
   - component: {fileID: 1383878076}
   - component: {fileID: 1383878075}
-  - component: {fileID: 1383878074}
   m_Layer: 5
   m_Name: Duke the Java
   m_TagString: Untagged
@@ -4288,20 +4271,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1383878074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383878073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 654196d23589bcb49b121a1eecbfdf0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dstnc: 5
-  spd: 0
 --- !u!95 &1383878075
 Animator:
   serializedVersion: 5
