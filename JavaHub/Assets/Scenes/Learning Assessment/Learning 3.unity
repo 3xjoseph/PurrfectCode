@@ -1155,6 +1155,7 @@ GameObject:
   - component: {fileID: 892559814}
   - component: {fileID: 892559818}
   - component: {fileID: 892559819}
+  - component: {fileID: 892559820}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1274,6 +1275,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b3f359110c6f354396b780ab2811da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loading: {fileID: 875728860}
+--- !u!114 &892559820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892559813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efee4e68d5a24ff4a89acd1689c34ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loading: {fileID: 875728860}
@@ -2122,8 +2136,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 892559818}
-        m_TargetAssemblyTypeName: sceneTransition1, Assembly-CSharp
+      - m_Target: {fileID: 892559820}
+        m_TargetAssemblyTypeName: level1goback, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
@@ -2211,8 +2225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28091.799, y: 12970.984}
-  m_SizeDelta: {x: 57769.117, y: 28419.045}
+  m_AnchoredPosition: {x: 27975.406, y: 12970.984}
+  m_SizeDelta: {x: 58001.906, y: 28419.045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132444468
 MonoBehaviour:
