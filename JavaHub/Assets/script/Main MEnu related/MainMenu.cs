@@ -5,14 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void playGame()
+
+    public GameObject loading, logo, cat;
+    public void playGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        gameObject.SetActive(true);
+        loading.SetActive(true);
+        StartCoroutine(nextScene());
     }
 
     public void quitGame()
     {
         Debug.Log("quit");
         Application.Quit();
+    }
+
+    IEnumerator nextScene()
+    {
+        yield return new WaitForSeconds(2f);
+        loading.SetActive(false);
+        gameObject.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //load the scene of learning 1
     }
 }

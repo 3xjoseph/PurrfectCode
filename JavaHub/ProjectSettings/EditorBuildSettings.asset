@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: d0579bb1b3b724d45b5022319e25ad3f
+    guid: 98c3443b584879e4483cd48ce979c163
   - enabled: 1
     path: Assets/Scenes/Chapter Selection 2.unity
     guid: 2c2f29df7d1a483469f53b46d3c314b5
@@ -29,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Learning Assessment/Learning 3.unity
     guid: 89914cbc71523c24096bbc6938486595
+  - enabled: 1
+    path: Assets/Scenes/Open World/3-Open World.unity
+    guid: 58dfd4426d218bb40a03e2e3360c7b10
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: 384642cb157902044aea34bbc74bafcb
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 2474ae3073ab6de4ea3508bb0656a6e0
   m_configObjects: {}

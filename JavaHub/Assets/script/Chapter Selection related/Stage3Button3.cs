@@ -18,6 +18,6 @@ public class Stage3Button3 : MonoBehaviour
         yield return new WaitForSeconds(5f);
         loading.SetActive(false);
         gameObject.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); //load the scene of learning 1
+        SceneManager.LoadScene(8); //load the scene of learning 1
     }
 }
