@@ -17,9 +17,9 @@ public class checkAnswer : MonoBehaviour
     public Text question, textA,textB,textC,textD;
     public GameObject snakeObj;
     public GameObject catObj;
-    
-
     int index = 0;
+
+    int catLives = 3, snakeLives=8;
     String[] answer = { "choiceC", "choiceC", "choiceD", "choiceA", "choiceD", "choiceA", "choiceA", "choiceD", "choiceB", "choiceC" ,"choiceC",
         "choiceA","choiceD","choiceB"," "};
     String[] questionnaire = {
@@ -90,7 +90,7 @@ public class checkAnswer : MonoBehaviour
     public void click()
     {
         string buttonName = EventSystem.current.currentSelectedGameObject.name; //get the name of the button has been clicked
-        Answer(buttonName);
+        Answer(buttonName); //check if the answer is correct or not
  
     }
 
@@ -108,7 +108,6 @@ public class checkAnswer : MonoBehaviour
             //change the questions
             StartCoroutine(waitToProceed());
             index++;
-
         }
         //wrong answer
         else
@@ -127,7 +126,7 @@ public class checkAnswer : MonoBehaviour
         String forB = choiceB[index];
         String forC = choiceC[index];
         String forD = choiceD[index];
-        changeChoices(forA, forB, forC, forD);
+        changeChoices(forA, forB, forC, forD); //change the choices
     }
 
     private void changeChoices(string forA, string forB, string forC, string forD)
@@ -148,35 +147,45 @@ public class checkAnswer : MonoBehaviour
         {
             Transform lastHeart = heart.transform.GetChild(heart.transform.childCount - 1);
             Destroy(lastHeart.gameObject);
-        }
-        //no more lives
-        else
-        {
-            //show dialog
+
+            //remove cat's heart
             if (isCat)
-                popUpDialogCat.SetActive(true);
+            {
+                catLives--;
+                if (catLives == 0)
+                    StartCoroutine(waitToPopUp(popUpDialogCat)); //show the dialog afte 5 seconds
+
+            }
+
+            //remove snake's heart
             else
             {
-               
-                snakeScript snake = snakeObj.GetComponent<snakeScript>();
-                snake.Death();
-                StartCoroutine(waitToPopUp());
-            }
+                snakeLives--;
+                if (snakeLives == 0)
+                {
+                    //add death animation for snake after loosing
+                    snakeScript snake = snakeObj.GetComponent<snakeScript>();
+                    snake.Death();
+                    StartCoroutine(waitToPopUp(popUpDialogSnake)); //show the dialog afte 5 seconds
+                }
                 
+            }
+    
         }
-            
-
+           
     }
 
+    //next question will appear after 4seconds
     IEnumerator waitToProceed()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         proceed(questionnaire[index]);
     }
 
-    IEnumerator waitToPopUp()
+    //pop up dialog
+    IEnumerator waitToPopUp(GameObject popUp)
     {
         yield return new WaitForSeconds(5f);
-        popUpDialogSnake.SetActive(true);
+        popUp.SetActive(true);
     }
 }
