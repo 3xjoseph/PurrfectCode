@@ -12,14 +12,16 @@ public class checkAnswer : MonoBehaviour
 
     public GameObject enemyHeart;
     public GameObject catHeart;
-    public GameObject popUpDialog;
+    public GameObject popUpDialogCat;
+    public GameObject popUpDialogSnake;
     public Text question, textA,textB,textC,textD;
     public GameObject snakeObj;
     public GameObject catObj;
     
 
     int index = 0;
-    String[] answer = { "choiceC", "choiceC", "choiceD", "choiceA", "choiceD", "choiceA", "choiceA", "choiceD", "choiceB", "choiceC" };
+    String[] answer = { "choiceC", "choiceC", "choiceD", "choiceA", "choiceD", "choiceA", "choiceA", "choiceD", "choiceB", "choiceC" ,"choiceC",
+        "choiceA","choiceD","choiceB"," "};
     String[] questionnaire = {
         "How are statements terminated in Java?",
         "How do you display output in Java?",
@@ -29,14 +31,24 @@ public class checkAnswer : MonoBehaviour
         "What is the difference between int and double data types in Java?",
         "How do you assign a value to a variable in Java?",
         "What is the default value of an uninitialized variable in Java?",
-        "How do you convert a string to an integer in Java?"
+        "How do you convert a string to an integer in Java?" ,
+        "This method is required and you will see it in every Java program",
+        "It marks the beginning and the end of a block of code.",
+        "It stores single characters surrounded by single quotes.",
+        "These types of data can be used to call methods to perform certain operations.",
+        " "
     };
 
     String[] choiceA =
     {
         "a) Colon (:)", "a) print()" , "a)	Single-line and multi-line comments" ,
         "a)	define","a)	A type of variable","a)	int is used for whole numbers, while double is used for decimal numbers",
-        "a)	assign()","a) null", "a) Integer.toInteger()"
+        "a)	assign()","a) null", "a) Integer.toInteger()",
+        "a) public()",
+        "a) { }",
+        "a) String",
+        "a) Primitive data types", 
+        " "
 
     };
 
@@ -44,20 +56,35 @@ public class checkAnswer : MonoBehaviour
     {
         "b)	Comma (,)", "b)	display()", "b)	Small and big comments", "b) var", "b)	A type of class",
         "b)	int is used for decimal numbers, while double is used for whole numbers", "b) store()",
-        "b)	0","b)	String.toInteger()",
+        "b)	0","b)	String.toInteger()" ,
+        "b) void()",
+        "b) ( )",
+        "b) Float",
+        "b) Non-Primitive data types",
+        " "
 
     };
     String[] choiceC =
     {
         "c)	Semicolon (;)", "c)	show()", "c) Red and blue comments", "c) set", "c)	A type of loop",
         "c)	int is used for text strings, while double is used for numbers","c)	set()", "c)	undefined",
-        "c)	Integer.parseInt()"
+        "c)	Integer.parseInt()" ,
+        "c) main()",
+        "c) /* */",
+        "c) Boolean",
+        "c) Primary data types",
+        " "
     };
 
     String[] choiceD =
     {
         "d)	Period (.)", "d) System.out.println()", "d)	Main and sub comments", "d)	type", "d)	A type of function",
-        "d)	int and double are the same data type", "d)	= (equals sign)", "d) void", "d) String.parseInt()"
+        "d)	int and double are the same data type", "d)	= (equals sign)", "d) void", "d) String.parseInt()",
+        "d) String()",
+        "d) [ ]",
+        "d) char",
+        "d) Secondary data types",   
+        " "
     };
 
     public void click()
@@ -69,6 +96,7 @@ public class checkAnswer : MonoBehaviour
 
     private void Answer(String buttonName)
     {
+
         //correct answer
         if (buttonName == answer[index+1])
         {
@@ -123,16 +151,32 @@ public class checkAnswer : MonoBehaviour
         }
         //no more lives
         else
+        {
+            //show dialog
             if (isCat)
-                popUpDialog.SetActive(true); //if there's no heart then you cannot proceed/play
-           // else
-                //promptMessage = "You have finish level 1";
-           
+                popUpDialogCat.SetActive(true);
+            else
+            {
+               
+                snakeScript snake = snakeObj.GetComponent<snakeScript>();
+                snake.Death();
+                StartCoroutine(waitToPopUp());
+            }
+                
+        }
+            
+
     }
 
     IEnumerator waitToProceed()
     {
         yield return new WaitForSeconds(2f);
-        proceed(questionnaire[index+1]);
+        proceed(questionnaire[index]);
+    }
+
+    IEnumerator waitToPopUp()
+    {
+        yield return new WaitForSeconds(5f);
+        popUpDialogSnake.SetActive(true);
     }
 }
